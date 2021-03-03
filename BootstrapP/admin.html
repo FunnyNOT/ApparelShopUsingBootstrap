@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Εποχιακά Είδη</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Εποχιακά Είδη</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html">Αρχική</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="shop1.html">Καρότσι</a>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="admin.html">Admin</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-primary text-white">
+  	<div class="container text-center">
+
+  		<h1>Καλώς ήρθατε στο κατάστημα</h1>
+ 		<img src="epox.jpg" class="img-fluid" alt="Responsive image">
+
+    </div>
+    
+  </header>
+
+<div class="container mt-3">
+  <!-- Button to Open the Modal -->
+  <button type="button" class="col-sm-18 col-md-12" data-toggle="modal" data-target="#myModal">
+    ΕΠΙΛΕΞΤΕ ΠΑΡΑΓΓΕΛΙΑ
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Επιλέξτε Παραγγελία</h4>
+          <button type="button" class="close" data-dismiss="modal">×</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <table class = "table">
+            <thead>
+              <tr>
+                <th scope="col">Όνομα</th>
+                <th scope="col">Διαθέσιμα</th>
+                <th scope="col" class="text-center">Τηλέφωνο</th>
+                <th scope="col" class="text-right">Τιμή</th>
+                <th> </th>
+              </tr>
+            </thead>
+            <tr>
+              <td>Παπαδόπουλος Κυριάκος</td>
+              <td>Διαθέσιμα</td>
+              <td class="text-center">694****7*6</td>
+              <td class="text-right">124,90 €</td>
+              <td class="text-center"><button class="btn btn-sm btn-success"><i class="fa fa-trash"></i> </button> </td>
+            </tr>
+              <td>Γρόπαλης Αναστάσιος</td>
+              <td>Διαθέσιμα</td>
+              <td class="text-center">693****5*4</td>
+              <td class="text-right">42,60 €</td>
+              <td class="text-center"><button class="btn btn-sm btn-success"><i class="fa fa-trash"></i> </button> </td>
+            <tr>
+              <td>Τοκαλατσίδης Σωτήρης</td>
+              <td>Μη Διαθέσιμα</td>
+              <td class="text-center">697****8*9</td>
+              <td class="text-right">183,50 €</td>
+              <td class="text-center"><button class="btn btn-sm btn-success"><i class="fa fa-trash"></i> </button> </td>
+            
+            </tr>
+          </table>
+        
+</div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+<div class="container mb-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr> 
+                            <th scope="col">Όνομα</th>
+                            <th scope="col">Διαθέσιμα</th>
+                            <th scope="col" class="text-center">Τηλέφωνο</th>
+                            <th scope="col" class="text-right">Τιμή</th>
+                            <th> </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>                           
+                            <td>Παπαδόπουλος Κυριάκος</td>
+                            <td>Διαθέσιμα</td>
+                            <td class="text-center">694****7*6</td>
+                            <td class="text-right">124,90 €</td>
+                            <td class="text-center"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
+                        </tr>                                              
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col mb-2">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 text-right">
+                    <button class="btn btn-block btn-danger text-uppercase">Ακυρωση παραγγελιας</button>
+                </div>
+                <div class="col-sm-12 col-md-6 text-right">
+                    <button class="btn btn-lg btn-block btn-success text-uppercase">Αποστολη παραγγελιας</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Εποχιακά Είδη 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
